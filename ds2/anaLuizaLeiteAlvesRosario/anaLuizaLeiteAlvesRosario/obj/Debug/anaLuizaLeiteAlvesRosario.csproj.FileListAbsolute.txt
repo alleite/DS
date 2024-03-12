@@ -1,0 +1,9 @@
+C:\Users\ds-etim-2\Desktop\ds2\anaLuizaLeiteAlvesRosario\anaLuizaLeiteAlvesRosario\bin\Debug\anaLuizaLeiteAlvesRosario.exe.config
+C:\Users\ds-etim-2\Desktop\ds2\anaLuizaLeiteAlvesRosario\anaLuizaLeiteAlvesRosario\bin\Debug\anaLuizaLeiteAlvesRosario.exe
+C:\Users\ds-etim-2\Desktop\ds2\anaLuizaLeiteAlvesRosario\anaLuizaLeiteAlvesRosario\bin\Debug\anaLuizaLeiteAlvesRosario.pdb
+C:\Users\ds-etim-2\Desktop\ds2\anaLuizaLeiteAlvesRosario\anaLuizaLeiteAlvesRosario\obj\Debug\anaLuizaLeiteAlvesRosario.csprojResolveAssemblyReference.cache
+C:\Users\ds-etim-2\Desktop\ds2\anaLuizaLeiteAlvesRosario\anaLuizaLeiteAlvesRosario\obj\Debug\anaLuizaLeiteAlvesRosario.Form1.resources
+C:\Users\ds-etim-2\Desktop\ds2\anaLuizaLeiteAlvesRosario\anaLuizaLeiteAlvesRosario\obj\Debug\anaLuizaLeiteAlvesRosario.Properties.Resources.resources
+C:\Users\ds-etim-2\Desktop\ds2\anaLuizaLeiteAlvesRosario\anaLuizaLeiteAlvesRosario\obj\Debug\anaLuizaLeiteAlvesRosario.csproj.GenerateResource.Cache
+C:\Users\ds-etim-2\Desktop\ds2\anaLuizaLeiteAlvesRosario\anaLuizaLeiteAlvesRosario\obj\Debug\anaLuizaLeiteAlvesRosario.exe
+C:\Users\ds-etim-2\Desktop\ds2\anaLuizaLeiteAlvesRosario\anaLuizaLeiteAlvesRosario\obj\Debug\anaLuizaLeiteAlvesRosario.pdb

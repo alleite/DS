@@ -1,0 +1,9 @@
+C:\Users\ds-etim-2\Desktop\ds2\Imc\Imc\bin\Debug\Imc.exe.config
+C:\Users\ds-etim-2\Desktop\ds2\Imc\Imc\bin\Debug\Imc.exe
+C:\Users\ds-etim-2\Desktop\ds2\Imc\Imc\bin\Debug\Imc.pdb
+C:\Users\ds-etim-2\Desktop\ds2\Imc\Imc\obj\Debug\Imc.csprojResolveAssemblyReference.cache
+C:\Users\ds-etim-2\Desktop\ds2\Imc\Imc\obj\Debug\Imc.Form1.resources
+C:\Users\ds-etim-2\Desktop\ds2\Imc\Imc\obj\Debug\Imc.Properties.Resources.resources
+C:\Users\ds-etim-2\Desktop\ds2\Imc\Imc\obj\Debug\Imc.csproj.GenerateResource.Cache
+C:\Users\ds-etim-2\Desktop\ds2\Imc\Imc\obj\Debug\Imc.exe
+C:\Users\ds-etim-2\Desktop\ds2\Imc\Imc\obj\Debug\Imc.pdb

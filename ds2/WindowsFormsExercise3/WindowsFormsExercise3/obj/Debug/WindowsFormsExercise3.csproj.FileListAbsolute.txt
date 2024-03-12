@@ -1,0 +1,9 @@
+C:\Users\ds-etim-2\Desktop\ds2\WindowsFormsExercise3\WindowsFormsExercise3\bin\Debug\WindowsFormsExercise3.exe.config
+C:\Users\ds-etim-2\Desktop\ds2\WindowsFormsExercise3\WindowsFormsExercise3\bin\Debug\WindowsFormsExercise3.exe
+C:\Users\ds-etim-2\Desktop\ds2\WindowsFormsExercise3\WindowsFormsExercise3\bin\Debug\WindowsFormsExercise3.pdb
+C:\Users\ds-etim-2\Desktop\ds2\WindowsFormsExercise3\WindowsFormsExercise3\obj\Debug\WindowsFormsExercise3.csprojResolveAssemblyReference.cache
+C:\Users\ds-etim-2\Desktop\ds2\WindowsFormsExercise3\WindowsFormsExercise3\obj\Debug\WindowsFormsExercise3.Form1.resources
+C:\Users\ds-etim-2\Desktop\ds2\WindowsFormsExercise3\WindowsFormsExercise3\obj\Debug\WindowsFormsExercise3.Properties.Resources.resources
+C:\Users\ds-etim-2\Desktop\ds2\WindowsFormsExercise3\WindowsFormsExercise3\obj\Debug\WindowsFormsExercise3.csproj.GenerateResource.Cache
+C:\Users\ds-etim-2\Desktop\ds2\WindowsFormsExercise3\WindowsFormsExercise3\obj\Debug\WindowsFormsExercise3.exe
+C:\Users\ds-etim-2\Desktop\ds2\WindowsFormsExercise3\WindowsFormsExercise3\obj\Debug\WindowsFormsExercise3.pdb
