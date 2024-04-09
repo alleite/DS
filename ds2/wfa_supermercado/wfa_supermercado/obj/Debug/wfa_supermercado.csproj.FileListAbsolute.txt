@@ -1,0 +1,9 @@
+C:\Users\ds-etim-2\Desktop\ds2\wfa_supermercado\wfa_supermercado\bin\Debug\wfa_supermercado.exe.config
+C:\Users\ds-etim-2\Desktop\ds2\wfa_supermercado\wfa_supermercado\bin\Debug\wfa_supermercado.exe
+C:\Users\ds-etim-2\Desktop\ds2\wfa_supermercado\wfa_supermercado\bin\Debug\wfa_supermercado.pdb
+C:\Users\ds-etim-2\Desktop\ds2\wfa_supermercado\wfa_supermercado\obj\Debug\wfa_supermercado.csprojResolveAssemblyReference.cache
+C:\Users\ds-etim-2\Desktop\ds2\wfa_supermercado\wfa_supermercado\obj\Debug\wfa_supermercado.Form1.resources
+C:\Users\ds-etim-2\Desktop\ds2\wfa_supermercado\wfa_supermercado\obj\Debug\wfa_supermercado.Properties.Resources.resources
+C:\Users\ds-etim-2\Desktop\ds2\wfa_supermercado\wfa_supermercado\obj\Debug\wfa_supermercado.csproj.GenerateResource.Cache
+C:\Users\ds-etim-2\Desktop\ds2\wfa_supermercado\wfa_supermercado\obj\Debug\wfa_supermercado.exe
+C:\Users\ds-etim-2\Desktop\ds2\wfa_supermercado\wfa_supermercado\obj\Debug\wfa_supermercado.pdb

@@ -1,0 +1,9 @@
+C:\Users\ds-etim-2\Desktop\ds2\WFA_uml\WFA_uml\bin\Debug\WFA_uml.exe.config
+C:\Users\ds-etim-2\Desktop\ds2\WFA_uml\WFA_uml\bin\Debug\WFA_uml.exe
+C:\Users\ds-etim-2\Desktop\ds2\WFA_uml\WFA_uml\bin\Debug\WFA_uml.pdb
+C:\Users\ds-etim-2\Desktop\ds2\WFA_uml\WFA_uml\obj\Debug\WFA_uml.csprojResolveAssemblyReference.cache
+C:\Users\ds-etim-2\Desktop\ds2\WFA_uml\WFA_uml\obj\Debug\WFA_uml.Form1.resources
+C:\Users\ds-etim-2\Desktop\ds2\WFA_uml\WFA_uml\obj\Debug\WFA_uml.Properties.Resources.resources
+C:\Users\ds-etim-2\Desktop\ds2\WFA_uml\WFA_uml\obj\Debug\WFA_uml.csproj.GenerateResource.Cache
+C:\Users\ds-etim-2\Desktop\ds2\WFA_uml\WFA_uml\obj\Debug\WFA_uml.exe
+C:\Users\ds-etim-2\Desktop\ds2\WFA_uml\WFA_uml\obj\Debug\WFA_uml.pdb

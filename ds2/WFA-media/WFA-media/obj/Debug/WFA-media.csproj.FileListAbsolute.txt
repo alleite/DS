@@ -1,0 +1,9 @@
+C:\Users\ds-etim-2\Desktop\ds2\WFA-media\WFA-media\bin\Debug\WFA-media.exe.config
+C:\Users\ds-etim-2\Desktop\ds2\WFA-media\WFA-media\bin\Debug\WFA-media.exe
+C:\Users\ds-etim-2\Desktop\ds2\WFA-media\WFA-media\bin\Debug\WFA-media.pdb
+C:\Users\ds-etim-2\Desktop\ds2\WFA-media\WFA-media\obj\Debug\WFA-media.csprojResolveAssemblyReference.cache
+C:\Users\ds-etim-2\Desktop\ds2\WFA-media\WFA-media\obj\Debug\WFA_media.Form1.resources
+C:\Users\ds-etim-2\Desktop\ds2\WFA-media\WFA-media\obj\Debug\WFA_media.Properties.Resources.resources
+C:\Users\ds-etim-2\Desktop\ds2\WFA-media\WFA-media\obj\Debug\WFA-media.csproj.GenerateResource.Cache
+C:\Users\ds-etim-2\Desktop\ds2\WFA-media\WFA-media\obj\Debug\WFA-media.exe
+C:\Users\ds-etim-2\Desktop\ds2\WFA-media\WFA-media\obj\Debug\WFA-media.pdb

@@ -1,0 +1,9 @@
+C:\Users\ds-etim-2\Desktop\ds2\WFA_consorcio\WFA_consorcio\bin\Debug\WFA_consorcio.exe.config
+C:\Users\ds-etim-2\Desktop\ds2\WFA_consorcio\WFA_consorcio\bin\Debug\WFA_consorcio.exe
+C:\Users\ds-etim-2\Desktop\ds2\WFA_consorcio\WFA_consorcio\bin\Debug\WFA_consorcio.pdb
+C:\Users\ds-etim-2\Desktop\ds2\WFA_consorcio\WFA_consorcio\obj\Debug\WFA_consorcio.csprojResolveAssemblyReference.cache
+C:\Users\ds-etim-2\Desktop\ds2\WFA_consorcio\WFA_consorcio\obj\Debug\WFA_consorcio.Form1.resources
+C:\Users\ds-etim-2\Desktop\ds2\WFA_consorcio\WFA_consorcio\obj\Debug\WFA_consorcio.Properties.Resources.resources
+C:\Users\ds-etim-2\Desktop\ds2\WFA_consorcio\WFA_consorcio\obj\Debug\WFA_consorcio.csproj.GenerateResource.Cache
+C:\Users\ds-etim-2\Desktop\ds2\WFA_consorcio\WFA_consorcio\obj\Debug\WFA_consorcio.exe
+C:\Users\ds-etim-2\Desktop\ds2\WFA_consorcio\WFA_consorcio\obj\Debug\WFA_consorcio.pdb
