@@ -10,6 +10,7 @@ namespace WFA_exemplo_encapsulamento
     {
         //Criar atributo 
         private string nome;
+        private string cpf;
         //A cada atributo é necessário criar dois métodos (get e set)
         //Método
         public void setNome(string nome )
@@ -28,6 +29,16 @@ namespace WFA_exemplo_encapsulamento
         public string getNome()
         {
             return this.nome;
+        }
+
+        public void setCpf(string cpf)
+        {
+            this.cpf = cpf;
+        }
+
+        public string getCpf()
+        {
+            return this.cpf;
         }
     }
 }

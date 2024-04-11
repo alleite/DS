@@ -16,5 +16,18 @@ namespace WFA_exemplo_encapsulamento
         {
             InitializeComponent();
         }
+        aluno z = new aluno();
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            z.setNome(txt_nome.Text);
+            z.setCpf(txt_cpf.Text);
+        }
+
+        private void bnt_mostrar_get_Click(object sender, EventArgs e)
+        {
+            lbl_mostrar_nome.Text = z.getNome();
+            lbl_mostrar_cpf.Text = z.getCpf();
+        }
     }
 }

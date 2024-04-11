@@ -1,1 +1,10 @@
 C:\Users\ds-etim-2\Desktop\ds2\WFA-exemplo_encapsulamento\WFA-exemplo_encapsulamento\bin\Debug\WFA-exemplo_encapsulamento.exe.config
+C:\Users\ds-etim-2\Desktop\DS\ds2\WFA-exemplo_encapsulamento\WFA-exemplo_encapsulamento\bin\Debug\WFA-exemplo_encapsulamento.exe.config
+C:\Users\ds-etim-2\Desktop\DS\ds2\WFA-exemplo_encapsulamento\WFA-exemplo_encapsulamento\bin\Debug\WFA-exemplo_encapsulamento.exe
+C:\Users\ds-etim-2\Desktop\DS\ds2\WFA-exemplo_encapsulamento\WFA-exemplo_encapsulamento\bin\Debug\WFA-exemplo_encapsulamento.pdb
+C:\Users\ds-etim-2\Desktop\DS\ds2\WFA-exemplo_encapsulamento\WFA-exemplo_encapsulamento\obj\Debug\WFA-exemplo_encapsulamento.csprojResolveAssemblyReference.cache
+C:\Users\ds-etim-2\Desktop\DS\ds2\WFA-exemplo_encapsulamento\WFA-exemplo_encapsulamento\obj\Debug\WFA_exemplo_encapsulamento.Form1.resources
+C:\Users\ds-etim-2\Desktop\DS\ds2\WFA-exemplo_encapsulamento\WFA-exemplo_encapsulamento\obj\Debug\WFA_exemplo_encapsulamento.Properties.Resources.resources
+C:\Users\ds-etim-2\Desktop\DS\ds2\WFA-exemplo_encapsulamento\WFA-exemplo_encapsulamento\obj\Debug\WFA-exemplo_encapsulamento.csproj.GenerateResource.Cache
+C:\Users\ds-etim-2\Desktop\DS\ds2\WFA-exemplo_encapsulamento\WFA-exemplo_encapsulamento\obj\Debug\WFA-exemplo_encapsulamento.exe
+C:\Users\ds-etim-2\Desktop\DS\ds2\WFA-exemplo_encapsulamento\WFA-exemplo_encapsulamento\obj\Debug\WFA-exemplo_encapsulamento.pdb
