@@ -13,7 +13,7 @@ namespace WFA_exemplo_polimorfismo
 
         public void setTotalVenda(double TotalVenda)
         {
-            this.TotalVenda = TotalVenda
+            this.TotalVenda = TotalVenda;
         }
 
         public double getTotalVenda()
