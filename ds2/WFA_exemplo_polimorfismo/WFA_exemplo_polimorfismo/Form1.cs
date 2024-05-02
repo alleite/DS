@@ -38,6 +38,7 @@ namespace WFA_exemplo_polimorfismo
         }
             // instanciamento do objeto incompleto
             empregado objeto = null;
+            empregado f = new empregado();
         private void btn_verificar_Click(object sender, EventArgs e)
         {
             if (Rb_assalariado.Checked)
@@ -63,21 +64,38 @@ namespace WFA_exemplo_polimorfismo
                 lbl_dataVenc.Text = objeto.vencimento(t).ToString();
             }
 
-            //Captura de informações
             f.setNome(txt_nome.Text);
             f.setSobrenome(txtSobrenome.Text);
             f.setCpf(txt_cpf.Text);
 
-            //Demonstrar informações
+            lbl_nomeFunc.Text = f.getNome();
+            lblSobrenome.Text = f.getSobrenome();
+            lbl_cpf.Text = f.getCpf();
 
-            lbl_nome.Text = f.getNome();
-            lbl_cartao.Text = f.getCartao();
-            lbl_rg.Text = f.getRg();
+        }
 
+        private void txtNome_TextChanged(object sender, EventArgs e)
+        {
 
+        }
 
-            //Atividade demonstre as informações digitadas na caixa de texto nome, sobrenome e cpf
-            //utilizando set e get. Utilize um botão(verificar) e demonstre em label ou caixa de texto.
+        private void lblSobrenome_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_nome_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

@@ -30,7 +30,7 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txt_cpf = new System.Windows.Forms.TextBox();
-            this.txtNome = new System.Windows.Forms.TextBox();
+            this.txtSobrenome = new System.Windows.Forms.TextBox();
             this.txt_nome = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.lbl_sobrenome = new System.Windows.Forms.Label();
@@ -46,11 +46,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.lbl_nomeFunc = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.lblSobrenome = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.lbl_cpf = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lblSobrenome = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lbl_nomeFunc = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -60,7 +60,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.txt_cpf);
-            this.groupBox1.Controls.Add(this.txtNome);
+            this.groupBox1.Controls.Add(this.txtSobrenome);
             this.groupBox1.Controls.Add(this.txt_nome);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.lbl_sobrenome);
@@ -79,12 +79,13 @@
             this.txt_cpf.Size = new System.Drawing.Size(142, 20);
             this.txt_cpf.TabIndex = 5;
             // 
-            // txtNome
+            // txtSobrenome
             // 
-            this.txtNome.Location = new System.Drawing.Point(81, 51);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(142, 20);
-            this.txtNome.TabIndex = 4;
+            this.txtSobrenome.Location = new System.Drawing.Point(81, 51);
+            this.txtSobrenome.Name = "txtSobrenome";
+            this.txtSobrenome.Size = new System.Drawing.Size(142, 20);
+            this.txtSobrenome.TabIndex = 4;
+            this.txtSobrenome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
             // 
             // txt_nome
             // 
@@ -92,6 +93,7 @@
             this.txt_nome.Name = "txt_nome";
             this.txt_nome.Size = new System.Drawing.Size(142, 20);
             this.txt_nome.TabIndex = 3;
+            this.txt_nome.TextChanged += new System.EventHandler(this.txt_nome_TextChanged);
             // 
             // label3
             // 
@@ -210,11 +212,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 27);
+            this.label1.Location = new System.Drawing.Point(21, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(36, 13);
+            this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "nome:";
+            this.label1.Text = "Nome:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // groupBox4
             // 
@@ -231,52 +234,58 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Dados do empregado ";
             // 
-            // lbl_nomeFunc
+            // lbl_cpf
             // 
-            this.lbl_nomeFunc.AutoSize = true;
-            this.lbl_nomeFunc.Location = new System.Drawing.Point(82, 27);
-            this.lbl_nomeFunc.Name = "lbl_nomeFunc";
-            this.lbl_nomeFunc.Size = new System.Drawing.Size(0, 13);
-            this.lbl_nomeFunc.TabIndex = 3;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(10, 59);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(64, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Sobrenome:";
-            // 
-            // lblSobrenome
-            // 
-            this.lblSobrenome.AutoSize = true;
-            this.lblSobrenome.Location = new System.Drawing.Point(82, 59);
-            this.lblSobrenome.Name = "lblSobrenome";
-            this.lblSobrenome.Size = new System.Drawing.Size(0, 13);
-            this.lblSobrenome.TabIndex = 5;
+            this.lbl_cpf.AutoSize = true;
+            this.lbl_cpf.Location = new System.Drawing.Point(120, 97);
+            this.lbl_cpf.Name = "lbl_cpf";
+            this.lbl_cpf.Size = new System.Drawing.Size(22, 13);
+            this.lbl_cpf.TabIndex = 7;
+            this.lbl_cpf.Text = "cpf";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(10, 97);
+            this.label7.Location = new System.Drawing.Point(21, 97);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(30, 13);
+            this.label7.Size = new System.Drawing.Size(26, 13);
             this.label7.TabIndex = 6;
-            this.label7.Text = "CPF:";
+            this.label7.Text = "Cpf:";
             // 
-            // lbl_cpf
+            // lblSobrenome
             // 
-            this.lbl_cpf.AutoSize = true;
-            this.lbl_cpf.Location = new System.Drawing.Point(82, 97);
-            this.lbl_cpf.Name = "lbl_cpf";
-            this.lbl_cpf.Size = new System.Drawing.Size(0, 13);
-            this.lbl_cpf.TabIndex = 7;
+            this.lblSobrenome.AutoSize = true;
+            this.lblSobrenome.Location = new System.Drawing.Point(120, 59);
+            this.lblSobrenome.Name = "lblSobrenome";
+            this.lblSobrenome.Size = new System.Drawing.Size(61, 13);
+            this.lblSobrenome.TabIndex = 5;
+            this.lblSobrenome.Text = "Sobrenome";
+            this.lblSobrenome.Click += new System.EventHandler(this.lblSobrenome_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(21, 59);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(64, 13);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Sobrenome:";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // lbl_nomeFunc
+            // 
+            this.lbl_nomeFunc.AutoSize = true;
+            this.lbl_nomeFunc.Location = new System.Drawing.Point(120, 27);
+            this.lbl_nomeFunc.Name = "lbl_nomeFunc";
+            this.lbl_nomeFunc.Size = new System.Drawing.Size(33, 13);
+            this.lbl_nomeFunc.TabIndex = 3;
+            this.lbl_nomeFunc.Text = "nome";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(525, 368);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.btn_verificar);
@@ -302,7 +311,7 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txt_cpf;
-        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.TextBox txtSobrenome;
         private System.Windows.Forms.TextBox txt_nome;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lbl_sobrenome;
