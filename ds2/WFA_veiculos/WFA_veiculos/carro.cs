@@ -8,36 +8,27 @@ namespace WFA_veiculos
 {
     class carro : veiculo 
     {
-        private int numPortas;
-        private int numRodas;
-        private string tamanhoRoda;
+        private string numPortas;
+        private string numRodas;
 
 
-        public void setNumPortas( int numPortas)
+        public void setNumPortas( string numPortas)
         {
             this.numPortas = numPortas;
         }
-        public int getNumPortas()
+        public string getNumPortas()
         {
             return this.numPortas;
         }
 
-        public void setNumRodas(int numRodas)
+        public void setNumRodas(string numRodas)
         {
             this.numRodas = numRodas;
         }
-        public int getNumRodas()
+        public string getNumRodas()
         {
             return this.numRodas;
         }
 
-        public void setTamanhoRoda(string tamanhoRoda)
-        {
-            this.tamanhoRoda = tamanhoRoda;
-        }
-        public string getTamanhoRoda()
-        {
-            return this.tamanhoRoda;
-        }
     }
 }

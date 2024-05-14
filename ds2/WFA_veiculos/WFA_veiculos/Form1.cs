@@ -21,8 +21,8 @@ namespace WFA_veiculos
         {
 
         }
-        veiculo f = new veiculo();
-        carro c = new carro();
+
+        carro c  = new carro();
         private void bnt_verificar_Click(object sender, EventArgs e)
         {
             if (Rb_fina.Checked)
@@ -38,16 +38,23 @@ namespace WFA_veiculos
                 lbl_expessura.Text = "Grossa";
             }
 
-            f.setCor(txt_cor.Text);
-            f.setModelo(txt_modelo.Text);
-            f.setAnoFabric(txt_ano.Text);
+            c.setCor(txt_cor.Text);
+            c.setModelo(txt_modelo.Text);
+            c.setAnoFabric(txt_ano.Text);
             c.setNumPortas(txt_numPortas.Text);
             c.setNumRodas(txt_numRodas.Text);
-            c.(txt_ano.Text);
 
-            lbl_nomeFunc.Text = f.getNome();
-            lblSobrenome.Text = f.getSobrenome();
-            lbl_cpf.Text = f.getCpf();
+            lbl_cor.Text = c.getCor();
+            lbl_modelo.Text = c.getModelo();
+            lbl_ano.Text = c.getAnoFabric();
+            lbl_portas.Text = c.getNumPortas();
+            lbl_rodas.Text = c.getNumRodas();
+
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
 
         }
     }
