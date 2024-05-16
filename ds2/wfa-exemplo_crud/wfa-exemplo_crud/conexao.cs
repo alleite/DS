@@ -46,7 +46,28 @@ namespace wfa_exemplo_crud
             conectar = new MySqlConnection(conexaostring);
             //MySqlConnection - utilizar a string conexaostring para 
             //conectar ao banco de dados  
- 
+        }
+        //Abertura do banco de dados 
+        public bool abrirconexao()
+        {
+            try 
+            {
+                conectar.Open();
+                return true;
+            }
+            catch (MySqlConnection ex)
+            {
+                switch(ex.Number)
+                {
+                    case 0:
+        System.Windows.Forms.MessageBox.Show("Não foi possivel conectar.");
+                        break;
+                    case 1045:
+       System.Windows.Forms.MessageBox.Show("Usuário e senha invalídos!")
+                        break;   
+                } 
+                return false;
+            }
         }
 
     }
