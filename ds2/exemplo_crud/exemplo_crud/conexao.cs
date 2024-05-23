@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 //Biblioteca de conexão do SQL
 using MySql.Data;
 using MySql.Data.MySqlClient;
-namespace wfa_exemplo_crud
+namespace exemplo_crud
 {
     class conexao
     {
