@@ -46,6 +46,7 @@ namespace exemplo_crud
         //Abertura do banco de dados
         public bool abrirconexao()
         {    //Try Catch é um tratamento de erro para códigos
+
             try
             {
                 conectar.Open();
