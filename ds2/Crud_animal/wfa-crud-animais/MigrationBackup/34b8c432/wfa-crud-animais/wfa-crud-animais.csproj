@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>wfa_crud_animais</RootNamespace>
     <AssemblyName>wfa-crud-animais</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
@@ -133,23 +133,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="MySql.Data">
-      <Version>8.0.30</Version>
-    </PackageReference>
-    <PackageReference Include="System.Memory">
-      <Version>4.5.4</Version>
-    </PackageReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\1904659-arrow-backup-down-download-save-storage-transfer_122509 %282%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\trash_bin_icon-icons.com_67981.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\3709742-board-forum-information-text-web_108094.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
