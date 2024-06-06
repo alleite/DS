@@ -26,5 +26,23 @@ namespace wfa_crud_animais
         {
 
         }
+
+        private void txt_nome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+        }
+        tutor c = new tutor();
+        private void btn_salvar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+            }
+        }
     }
 }
