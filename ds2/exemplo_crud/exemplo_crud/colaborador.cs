@@ -95,5 +95,16 @@ namespace exemplo_crud
             da.Fill(dt);
             return dt;
         }
+        public void alterar()
+        {
+            string query = "update colaborador set nome_colaborador = ' " + getNome() + "', sobrenome_colaborador = ' " + getSobrenome() + "', cpf_colaborador = '" + getCpf() + "' where codigo_colaborador = '" + getCodigo() + "'";
+
+            if (this.abrirconexao() == true)
+            {
+                MySqlCommand cmd = new MySqlCommand(query, conectar);
+                cmd.ExecuteNonQuery();
+                this.fecharconexao();
+            }
+        }
     }
 }

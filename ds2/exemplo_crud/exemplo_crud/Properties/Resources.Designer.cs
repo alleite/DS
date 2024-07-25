@@ -63,6 +63,36 @@ namespace exemplo_crud.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1487086362_cancel_81578 {
+            get {
+                object obj = ResourceManager.GetObject("1487086362-cancel_81578", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1487086362_cancel_81578__2_ {
+            get {
+                object obj = ResourceManager.GetObject("1487086362-cancel_81578 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1487086362_cancel_815781 {
+            get {
+                object obj = ResourceManager.GetObject("1487086362-cancel_815781", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _1490793870_user_interface25_82355 {
             get {
                 object obj = ResourceManager.GetObject("1490793870-user-interface25_82355", resourceCulture);
@@ -106,6 +136,26 @@ namespace exemplo_crud.Properties {
         internal static System.Drawing.Bitmap _3709749_advice_consult_mobile_service_system_108073 {
             get {
                 object obj = ResourceManager.GetObject("3709749-advice-consult-mobile-service-system_108073", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap clean_floor_icon_133599__1_ {
+            get {
+                object obj = ResourceManager.GetObject("clean_floor_icon_133599 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Edit_icon_icons_com_55921__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Edit_icon-icons.com_55921 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

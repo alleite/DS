@@ -57,5 +57,29 @@ namespace exemplo_crud
                 MessageBox.Show("Informações excluídas com sucesso");
             }
         }
+
+        private void btn_limpar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_alternar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                //adicionar
+                c.setCodigo(txt_codigo.Text);
+                c.setCpf(txt_cpf.Text);
+                c.setNome(txt_nome.Text);
+                c.setSobreNome(txt_sobrenome.Text);
+                //Chamar o método alterar
+                c.alterar();
+                dataGridView1.DataSource = c.Consultar();
+            }
+            finally
+            {
+                MessageBox.Show("Informações alteradas com sucesso");
+            }
+        }
     }
 }

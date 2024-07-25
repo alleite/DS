@@ -154,6 +154,21 @@
   <ItemGroup>
     <None Include="Resources\3709749-advice-consult-mobile-service-system_108073.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1487086362-cancel_81578.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1487086362-cancel_815781.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1487086362-cancel_81578 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clean_floor_icon_133599 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit_icon-icons.com_55921 %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
