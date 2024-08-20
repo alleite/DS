@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace wfa_locadora
+namespace locadora
 {
     public partial class Form1 : Form
     {
@@ -104,7 +104,7 @@ namespace wfa_locadora
         }
         public void exibirregistro(int i)
         {
-            txt_cliente.Text = "" + dataGridView1[2 , i].Value;
+            txt_cliente.Text = "" + dataGridView1[2, i].Value;
             txt_codg_cliente.Text = "" + dataGridView1[3, i].Value;
             txt_codigo_filme.Text = "" + dataGridView1[5, i].Value;
             txt_data_devolucao.Text = "" + dataGridView1[7, i].Value;
