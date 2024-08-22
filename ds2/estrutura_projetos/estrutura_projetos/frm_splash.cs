@@ -29,5 +29,10 @@ namespace estrutura_projetos
                 this.Hide();
             }
         }
+
+        private void frm_splash_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

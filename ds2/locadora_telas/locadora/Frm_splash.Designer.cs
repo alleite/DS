@@ -1,6 +1,6 @@
-﻿namespace estrutura_projetos
+﻿namespace locadora
 {
-    partial class frm_splash
+    partial class Frm_splash
     {
         /// <summary>
         /// Required designer variable.
@@ -29,45 +29,31 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
-            // 
-            // progressBar1
-            // 
-            this.progressBar1.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.progressBar1.Location = new System.Drawing.Point(103, 380);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(220, 23);
-            this.progressBar1.TabIndex = 0;
             // 
             // timer1
             // 
-            this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // frm_splash
+            // Frm_splash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::estrutura_projetos.Properties.Resources.cartier_logo;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(429, 469);
-            this.Controls.Add(this.progressBar1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frm_splash";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.frm_splash_Load);
+            this.BackColor = System.Drawing.Color.Ivory;
+            this.BackgroundImage = global::locadora.Properties.Resources.al2;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(748, 540);
+            this.Name = "Frm_splash";
+            this.Text = "Form2";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
-
