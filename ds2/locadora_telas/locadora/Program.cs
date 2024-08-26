@@ -16,7 +16,7 @@ namespace locadora
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_Form());
+            Application.Run(new Frm_splash());
         }
     }
 }

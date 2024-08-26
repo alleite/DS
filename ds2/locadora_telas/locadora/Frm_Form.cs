@@ -138,5 +138,13 @@ namespace locadora
         {
 
         }
+
+        private void btn_sair_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Deseja mesmo sair?", "Exemplo Projeto", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 }
